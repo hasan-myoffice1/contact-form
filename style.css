@@ -1,0 +1,120 @@
+/* Style inputs with type="text", select elements and textareas */
+.body{
+  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacnt-form{
+    background-image: url('/honeymoon\ \(1\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacnt-form::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+/* .opacity{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+} */
+
+ 
+.form-item{
+ /* background-color: #04AA6D; */
+ z-index: 999;
+}
+
+
+form h2{
+    font-size: 2.3rem;
+    margin: 0;
+    color: #fff;
+}
+form h5{
+  font-size: 1rem;
+  margin: 10px 0 30px 0;
+  color: #fff;
+}
+
+input{
+    width: auto;  
+    padding: 12px;  
+    /* border: 1px solid #ccc;  */
+    border: none;
+    /* border-radius: 20px;   */
+    box-sizing: border-box;   
+    resize: vertical ;
+    outline: none;
+
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.input-div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-left: 7px;
+    border-right: 2px solid #04AA6D;
+    border-bottom: 2px solid #04AA6D;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.4);
+    
+}
+
+
+label{  
+    padding: 12px;  
+    /* border: 1px solid #ccc;  */
+    border-radius: 20px 0;  
+    box-sizing: border-box;   
+    resize: vertical ;
+    background-color: #04AA6D;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
